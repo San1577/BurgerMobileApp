@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/cart.css">
+        <title>Tam's Burger</title>
+    </head>
+    <body>
+        <div class="app-container">
+            <div class="header">
+                <h1>Cart</h1>
+                <div id="btnGoBack" class="btnGoBack">&#8592</div>
+            </div>
+            <div class="cart-container">
+                <div class="cart-item">
+                    <div class="item-image" style="background-image: url(../assets/Burger/classicBurger.jpg);"></div>
+                    <div class="item-option">
+                        <div class="item-name">Classic burger</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin: 5px 0">
+                            <div class="item-quantity">
+                                <img src="../assets/svg/minus.svg" width="25px" height="25px" alt="minus-icon">
+                                <div class="quantity"> 1 </div>
+                                <img src="../assets/svg/plus.svg" width="25px" height="25px" alt="plus-icon">
+                            </div>
+                            <div class="item-price">€ 8.99</div>
+                        </div>
+                        
+                        <textarea rows="4" cols="30" placeholder="Add note here..."></textarea>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="item-image" style="background-image: url(../assets/Burger/cheeseBurger.jpg);"></div>
+                    <div class="item-option">
+                        <div class="item-name">Cheese burger</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin: 5px 0">
+                            <div class="item-quantity">
+                                <img src="../assets/svg/minus.svg" width="25px" height="25px" alt="minus-icon">
+                                <div class="quantity"> 1 </div>
+                                <img src="../assets/svg/plus.svg" width="25px" height="25px" alt="plus-icon">
+                            </div>
+                            <div class="item-price">€ 9.49</div>
+                        </div>
+                        
+                        <textarea rows="4" cols="30" placeholder="Add note here..."></textarea>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="item-image" style="background-image: url(../assets/Burger/classicBurger.jpg);"></div>
+                    <div class="item-option">
+                        <div class="item-name">Onion rings</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin: 5px 0">
+                            <div class="item-quantity">
+                                <img id="btnMinus" src="../assets/svg/minus.svg" width="25px" height="25px" alt="minus-icon">
+                                <div class="quantity"> 2 </div>
+                                <img id="btnPlus" src="../assets/svg/plus.svg" width="25px" height="25px" alt="plus-icon">
+                            </div>
+                            <div class="item-price">€ 7.98</div>
+                        </div>
+                        
+                        <textarea rows="4" cols="30" placeholder="Add note here..."></textarea>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="item-image" style="background-image: url(../assets/Burger/icedTeas.jpg);"></div>
+                    <div class="item-option">
+                        <div class="item-name">Iced teas</div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin: 5px 0">
+                            <div class="item-quantity">
+                                <img src="../assets/svg/minus.svg" width="25px" height="25px" alt="minus-icon">
+                                <div class="quantity"> 2 </div>
+                                <img src="../assets/svg/plus.svg" width="25px" height="25px" alt="plus-icon">
+                            </div>
+                            <div class="item-price">€ 5.98</div>
+                        </div>
+                        
+                        <textarea rows="4" cols="30" placeholder="Add note here..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="total">
+                    <p>Total:</p>
+                    <p class="money">€32.44</p>
+                </div>
+                <div id="btnOrder" class="btnOrder">Order</div>
+            </div>
+        </div>
+        <script src="../js/cart.js"></script>
+    </body>
+</html>
